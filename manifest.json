@@ -5,6 +5,11 @@
 	"description": "Opens Spotify links in the desktop app instead of the web player.",
 	"permissions": ["storage", "webRequest", "tabs", "webRequestBlocking"],
 	"host_permissions": ["*://open.spotify.com/*"],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "@in-spotify"
+		}
+	},
 	"background": {
 		"scripts": ["background.js"]
 	},
