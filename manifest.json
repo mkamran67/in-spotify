@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "In Spotify",
+	"version": "1.0",
+	"description": "Opens Spotify links in the desktop app instead of the web player.",
+	"permissions": ["storage", "webRequest", "tabs", "webRequestBlocking"],
+	"host_permissions": ["*://open.spotify.com/*"],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "icons/spotify-in-16.png",
+			"48": "icons/spotify-in-48.png",
+			"128": "icons/spotify-in-128.png"
+		}
+	},
+	"icons": {
+		"16": "icons/spotify-in-16.png",
+		"48": "icons/spotify-in-48.png",
+		"128": "icons/spotify-in-128.png"
+	}
+}
