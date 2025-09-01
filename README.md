@@ -14,3 +14,6 @@
 
 1. Click the extension icon in your browser toolbar
 2. Use the toggle switch in the popup to enable or disable the feature
+
+
+https://addons.mozilla.org/en-US/firefox/addon/in-spotify/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
